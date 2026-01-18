@@ -9,8 +9,6 @@ load_dotenv()
 
 API_KEY = os.getenv("OW_API_KEY")
 
-CACHE_MAX_AGE_HOURS = 3  # Максимальный возраст кэша в часах
-
 def make_api_request(url: str, error_msg: str, delay: int = 1) -> dict:
     """
     Универсальная функция для выполнения API запросов с обработкой ошибок и повторными попытками
