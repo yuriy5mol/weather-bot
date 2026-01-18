@@ -1,0 +1,11 @@
+﻿.env
+user_data.json
+.cache/
+__pycache__/
+*.pyc
+*.json
+.venv/
+venv/
+.vscode/
+.idea/
+*.log
